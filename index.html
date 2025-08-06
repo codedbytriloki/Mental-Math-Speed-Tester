@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Math Speed Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Mental Math Speed Tester</h2>
+    <div class="info">
+      <div class="time">Time Left : <span id="time">5</span> s</div>
+      <div class="score">Score : <span id="score">0</span></div>
+    </div>
+    <div class="box">
+      <div id="question" class="question"> </div>
+      <input type="number" id="answer" placeholder="Answer">
+      <div id="result" class="result">Let's begin!</div>
+      <button id="submitBtn" onclick="submitAnswer()">Submit</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
